@@ -22,6 +22,7 @@
 		B91D83311FD22CD500F99445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91D83341FD22CD500F99445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91D83361FD22CD500F99445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91D833D1FD22DAC00F99445 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				B91D83291FD22CD500F99445 /* NotificationCrash */,
 				B91D83281FD22CD500F99445 /* Products */,
+				B91D833C1FD22DAC00F99445 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +64,14 @@
 				B91D83361FD22CD500F99445 /* Info.plist */,
 			);
 			path = NotificationCrash;
+			sourceTree = "<group>";
+		};
+		B91D833C1FD22DAC00F99445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91D833D1FD22DAC00F99445 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
